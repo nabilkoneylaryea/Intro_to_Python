@@ -1,0 +1,46 @@
+# Classes and objects
+
+
+class SuperHero:
+
+    team = 'Avengers' # default team, class variablw
+
+    #special type of function called initializer like a constructor in java to set up valuees
+    def __init__(self, name, health):
+        self.name = name
+        self.health = health
+
+    #method
+    def take_damage(self, amount):
+        self.health -= amount
+
+thor = SuperHero('thor', 100) #like making an object in jave but there is no declaration and no use of the 'new' keyword
+                                # just using the constructor and a variable name
+
+print(thor.name) #just like calling on public member variable; calling on these variables is called keeping track of the state because
+print(thor.health) # they make up the state of the object
+thor.take_damage(75)
+print(thor.health)
+print(thor.team)
+
+# Subclasses and superclasses
+
+# Subclass is child of superclass (INHERITANCE)
+
+class Hulk(SuperHero):
+
+    rage = 50
+
+    def __init__(self, name, health):
+        super().__init__(name, health) #calls on the usper initializer to do the actual heavy lifting with these values
+
+    def take_damage(self, amount):
+        self.rage += amount
+        super().take_damage(amount) #uses the funcitonality of the actual super class to do the same method with a small change
+
+hulk = Hulk("Hulk", 100)
+print(hulk.rage)
+hulk.take_damage(30)
+print(hulk.rage)
+print(hulk.health)
+
