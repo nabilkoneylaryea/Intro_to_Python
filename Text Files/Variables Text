@@ -1,0 +1,44 @@
+#Types: ints, floats, booleans, strings ''/""
+
+#name = value
+
+age = 49
+rage_factor = 0.5
+hulk_form = False
+name = "Bruce Banner"
+
+print(age, rage_factor, hulk_form, name)
+
+print(type(age))
+print(type(rage_factor))
+print(type(hulk_form))
+print(type(name))
+
+#Variable Opertaions
+#Type conversion
+
+#assignment: = not
+not_hulk_form = not hulk_form
+print(not_hulk_form)
+
+#arithmetic: + - * / %(modulus) //(?) += -+ *= /=
+full_name = name + " - The Hulk"
+print(full_name)
+
+print(50%7)
+print(50//7)
+
+age += 1
+print(age)
+
+print(5 > 2)
+print(5 == 2)
+
+#print(5 is 2) #Do two variables point to the same object
+
+#can cast or convert types new_type(val)
+#new type can be int, str, bool, float
+#don't be stupid and try to convert a string to an int
+
+#conditional: > >= < <= == != is
+

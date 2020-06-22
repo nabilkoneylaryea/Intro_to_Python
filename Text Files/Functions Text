@@ -1,0 +1,42 @@
+# Funcitons
+# Functions without parameters or return values
+# def name():
+#    function body
+# call function with name()
+
+anger = 0.7
+hulk_form = False
+
+def increase_rage():
+    global anger # need to redeclare global variables as global inside the funciton
+    global hulk_form
+    anger += 0.1
+    if anger > 0.9:
+        hulk_form = True
+    print('Hulk is getting angrier')
+
+
+# increase_rage()
+# increase_rage()
+# increase_rage()
+# print(anger)
+# print(hulk_form)
+
+# Funcionts with params and return values
+
+def increase_rage_2(by_amount):
+    global anger # need to redeclare global variables as global inside the funciton
+    anger += by_amount
+    print('Hulk is getting angrier')
+    if anger > 0.9:
+        return True
+    else:
+        return False
+
+hulk_form = increase_rage_2(0.3)
+print(hulk_form )
+
+#can also return and store multiple values at once
+#return val_1, val_2, etc
+#name_1, name_2, ... = name(param)
+

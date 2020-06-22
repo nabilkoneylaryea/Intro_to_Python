@@ -1,0 +1,32 @@
+# Control FLow
+# If statements
+# if condition == true:
+#   execute code block
+
+anger = 0.7
+feeling = True # none is like null
+in_danger = False
+if anger > 0.5 and in_danger:
+    feeling = 'like its time to smash'
+elif anger > 0.5 and not in_danger:
+    feeling = 'angry'
+elif anger == 0.5:
+    feeling = 'a little bit angry'
+else:
+    feeling = 'calm'
+
+print('Bruce is feeling', feeling)
+
+#While and for-in loops
+while anger > 0.1:
+    print('Hulk is on a rampage')
+    anger -= 0.1
+print('Hulk has turned back into Bruce Banner')
+
+#continue statement would skip the code following and go back into the loop
+#break statement would break out of the loop
+
+avengers = ["Thor", "Hawkeye", "Black Widow"]
+
+for name in avengers: #basically like a for-each loop in java
+    print(name)

@@ -1,0 +1,49 @@
+#Collections
+#Tuples
+# name = (val_1, val_2, ...) can have data of all types
+
+avengers = ("Thor", "Hulk", "Black Widow")
+
+print(avengers)
+print(avengers[0])
+# print(avengers[3]) Would throw an error as an out of range error
+#will get length of tuple
+print(len(avengers))
+#can get more functions using dot notation after the name of the tuple
+# TUPLES CANNOT: change in length, change individual items
+
+#Lists and list operations (more funcitonal tuples)
+# name = [val_1, val2, ...] LISTS USE SQUARE BRACKETS
+avengers_full = ["Iron Man", "Captain America", "Thor", "Hulk", "Hawkeye", "Black Widow"]
+print(avengers_full)
+print(avengers_full[0])
+
+avengers_full[2] = "Nick Fury"
+print(avengers_full)
+
+avengers_full.remove("Iron Man")
+print(avengers_full)
+
+avengers_full.pop(0) #Primary function is to remove the index from the list but also returns the value of what was removed
+print(avengers_full)
+
+avengers_full.append("Iron Man")
+avengers_full.append("Captain America") #can also use .insert(index, val) to add items to a list
+print(avengers_full)
+
+print(avengers_full[1:4]) #Can indicate a range of indexes using a semicolon, can  go out of bounds
+
+#Dictionaries and operations
+# uses key value pairs
+# name = {key: value, ...}
+
+codenames = {"Iron Man": "Tony Stark", "Captain America": "Steve Rogers", "Hulk" : "Bruce Banner"}
+print(codenames["Hulk"])
+# odenames["Black Widow"] = "Natasha Romanav" #can create new pairs in dictionary; can reassign in similar fashion
+print(codenames.keys())
+print(codenames.values())
+
+
+
+
+
