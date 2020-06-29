@@ -1,0 +1,15 @@
+# PRINT FORMATTING
+str_1 = 'hello'
+str_2 = 'world'
+# CONCATENATION ####################################
+print(str_1 + ' ' + str_2 )
+
+# FORMAT METHOD ####################################
+print('{} {}'.format(str_1, str_2))
+
+# F-STRINGS (STRING INTERPOLATION) ###############################
+print(f'{str_1} {str_2}')
+
+# CAN USE ESCAPE SEQUENCES AS WELL!!!
+# \t - tab
+# \n - new line

@@ -1,0 +1,23 @@
+# POPULAR TRING METHODS & OTHER FUNCTIONS
+# https://docs.python.org/3/library - Python Standard Library
+#
+# FUNCITONS
+# type() - gives type in format '<type type_name>'
+# type()__name__ - just returns 'type_name'
+# id() - returns location in memory of object
+# dir() - returns a list of methods available to an object
+#
+# METHODS
+# len() - returns number of characters in a string
+# capitalize() - capitalizes the first character in a string
+# upper() - returns uppercase of every letter
+# lower() - returns lowercase of every letter
+# strip() - removes whitespace SURROUNDING a string
+# find() - returns index of what you're looking for; indexOf() in java
+# split() - returns a list object of all the strings separated by a space; can change delimiter using a param
+# join() - inverse of split; USAGE: delimiter.join(list_name) e.g. ' '.join(list_name) for a space delimiter
+# import string - module that gives access to kool stuff
+#
+# DIFFERENCE BETWEEN FUNCTIONS AND METHODS
+# Functions are independent of a class and use a notation function_name(param)
+# Methods are functions that belong to a certain class and use dot notation e.g. object_name.function_name(param)
