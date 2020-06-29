@@ -1,15 +1,18 @@
 # PRINT FORMATTING
 str_1 = 'hello'
 str_2 = 'world'
-# CONCATENATION ####################################
+# CONCATENATION ##################################################################################################
 print(str_1 + ' ' + str_2 )
-
-# FORMAT METHOD ####################################
+#
+# FORMAT METHOD ##################################################################################################
 print('{} {}'.format(str_1, str_2))
-
-# F-STRINGS (STRING INTERPOLATION) ###############################
+#
+# F-STRINGS (STRING INTERPOLATION) ###############################################################################
 print(f'{str_1} {str_2}')
-
+#
 # CAN USE ESCAPE SEQUENCES AS WELL!!!
 # \t - tab
 # \n - new line
+#
+# MISC ###########################################################################################################
+# can do print('str' * iterations) to get a repeated pattern e.g print('-'*30)
