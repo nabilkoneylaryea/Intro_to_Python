@@ -1,0 +1,36 @@
+# ITERATORS
+#
+# FOR-LOOPS
+# the trick for python for loops is to think of every for loop as a for each loop
+# you can cycle through list items saying "for blank in list_name: "
+# you can also set a normal for loop by cycling through a rang of numbers
+# by saying something like "for blank in range(lower, upper(exclusive)): "
+#
+# EXAMPLE:
+# for num in range(10):
+#     print('hello there')
+# ! range() is a generator !
+#
+# FOR-LOOPS (WITH DICTIONARIES)
+#
+# you can iterate through a dictionary like a list but...
+# ... the variable will be initialized to the key
+# if you want the key value pairs "dict_name.items()" ...
+# ... returns an iterable list of key value pairs in tuples
+#
+# HOW TO ACCESS KEYS AND VALUES IN FOR-LOOP
+# dict_name = {'hello': 'there', 'general': 'kenobi'}
+# for item in dict_name.items():
+#     key, value = item # can replace 'item' in loop declaration alternatively
+#     print(key + ' ' + value)
+#
+# LIST COMPREHENSION
+# list comprehension is like using a for loop inside a list initialization
+# USAGE: list_name = [randint(range) for x in range(range)]
+# EXAMPLE 1: my_list = [randint(1000) for x in range(2)]
+# EXAMPLE 2:
+# from random import choice
+# from string import ascii_lowercase
+# my_list = [choice(ascii_lowercase) for x in range(10)]
+#
+
