@@ -1,0 +1,16 @@
+# NUMBERS
+#
+# RANDOM NUMBERS
+# import random
+# random.randint(min_val, max_val)
+#
+# POWERS
+# num_1 ** num_2 (num_1 to the power of num_2)
+#
+# CASTING
+# type(val) e.g. str(2)
+#
+# USER INPUT
+# input('prompt_string') e.g. input('Enter first name: ')
+# can set input to variable; will always be type string
+#

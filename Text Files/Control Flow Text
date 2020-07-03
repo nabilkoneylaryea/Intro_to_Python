@@ -30,3 +30,6 @@ avengers = ["Thor", "Hawkeye", "Black Widow"]
 
 for name in avengers: #basically like a for-each loop in java
     print(name)
+
+# TERNARY OPERATORS
+functionality if condition else functionality e.g. print(1) if num_1 >= 1 else print(0)

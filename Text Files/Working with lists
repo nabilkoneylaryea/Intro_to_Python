@@ -1,0 +1,23 @@
+# WORKING WITH LISTS
+# METHODS
+# sort() - alters list by sorting items
+# index(value) - returns index of param in list
+# append(value) - will alter list to add value to the end
+# insert(index, value) - will alter list to add value at a certain index
+# extend(new_list_name) - will add items from another list to a list instead of as a list inside a list
+# remove(value) - nothing returned just removes value from list
+# pop(index) - removes value at index and then returns value removed
+# reverse() - returns reverse of list
+
+# FUNCTIONS
+# sorted(list_name) - returns a list sorted, does not alter actual list
+# len(list_name) - length
+# max(list_name) - FOR INTS: max; FOR STRINGS: later in alphabetical order
+# min(lsit_name) - FOR INTS: min; FOR STRINGS: earlier in alphabetical order
+# dir(list_name) - methods available to list
+
+# SUBLISTS
+# slicing notations: list_name[start_index: end_index + 1: step_size (optional)]
+# MISC
+# in - a keyword that will check if an object appears in a list then returns a boolean; USAGE: object_name in list_name
+

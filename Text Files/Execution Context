@@ -1,0 +1,18 @@
+# EXECUTION CONTEXT
+#
+# python uses top down approach
+#
+# GLOBAL FRAME
+# all of your code lives here
+#
+# FUNCTION FRAME
+# temporary and only exists while function is being run
+#
+# MUTABLE vs IMMUTABLE
+#
+# in execution context ints are seen as immutable and are not stored as references ...
+# ... this means that changing it within a function context will not work
+#
+# Lists are held in a different context form global ...
+# this means when you try to call a list you are calling the reference to the list object instead of the list object itself ...
+# this makes it accessible within funcition context

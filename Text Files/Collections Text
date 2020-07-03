@@ -14,6 +14,8 @@ print(len(avengers))
 
 #Lists and list operations (more funcitonal tuples)
 # name = [val_1, val2, ...] LISTS USE SQUARE BRACKETS
+# KEY traits: ordered and indexed
+
 avengers_full = ["Iron Man", "Captain America", "Thor", "Hulk", "Hawkeye", "Black Widow"]
 print(avengers_full)
 print(avengers_full[0])
@@ -39,10 +41,13 @@ print(avengers_full[1:4]) #Can indicate a range of indexes using a semicolon, ca
 
 codenames = {"Iron Man": "Tony Stark", "Captain America": "Steve Rogers", "Hulk" : "Bruce Banner"}
 print(codenames["Hulk"])
-# odenames["Black Widow"] = "Natasha Romanav" #can create new pairs in dictionary; can reassign in similar fashion
+# codenames["Black Widow"] = "Natasha Romanav" #can create new pairs in dictionary; can reassign in similar fashion
 print(codenames.keys())
 print(codenames.values())
 
+# SETS
+# USAGE: name = {items}
+# not indexed or ordered & do not store duplicate values
 
 
 
