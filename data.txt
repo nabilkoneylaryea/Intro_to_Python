@@ -1,1 +1,3 @@
 nabil,koney-laryea:java,python,sql
+joe,schmoe:rust,assembly,javascript
+joey,schmoe:rust,assembly,javascript
